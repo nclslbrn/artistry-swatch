@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'canvas-colors',
-      fileName: 'canvas-colors',
+      name: 'iconic-palettes',
+      fileName: 'iconic-palettes',
     },
   },
   plugins: [dts()],

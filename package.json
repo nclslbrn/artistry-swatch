@@ -1,15 +1,15 @@
 {
-  "name": "@nclslbrn/canvas-colors",
+  "name": "@nclslbrn/iconic-palettes",
   "description": "A package to get random palette from iconic painting of art history",
-  "author": "Nicolas Lebrun",
+  "author": "Nicolas Lebrun <nclslbrn@gmail.com>",
   "license": "MIT",
-  "homepage": "<YOUR_SITE_URL>",
+  "homepage": "https://nicolas-lebrun.fr",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nclslbrn/canvas-colors.git"
+    "url": "https://github.com/nclslbrn/iconic-palettes.git"
   },
   "bugs": {
-    "url": "https://github.com/nclslbrn/canvas-colors/issues"
+    "url": "https://github.com/nclslbrn/iconic-palettes/issues"
   },
   "keywords": [
     "colors",
@@ -21,13 +21,13 @@
   ],
   "version": "0.0.0",
   "type": "module",
-  "main": "./dist/canvas-colors.umd.cjs",
-  "module": "./dist/canvas-colors.js",
+  "main": "./dist/iconic-palettes.umd.cjs",
+  "module": "./dist/iconic-palettes.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/canvas-colors.js",
-      "require": "./dist/canvas-colors.umd.cjs"
+      "import": "./dist/iconic-palettes.js",
+      "require": "./dist/iconic-palettes.umd.cjs"
     }
   },
   "files": [
