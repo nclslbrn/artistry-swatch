@@ -1,0 +1,32 @@
+{
+  "name": "canvas-colors",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/canvas-colors.umd.cjs",
+  "module": "./dist/canvas-colors.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/canvas-colors.js",
+      "require": "./dist/canvas-colors.umd.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vite-plugin-dts": "^3.6.4"
+  }
+}
