@@ -36,9 +36,12 @@ const palette = getPalette({ artist: "Albrecht Dürer"})
 ``` 
 
 
-### Palette object
+## Returned palette object
 
 The function getPalette return a palette or false if nothing match your criteria.
+
 Every color is defined by an hexadecimal value (# include) without alpha.
+
 Each palette has a `background` and a `stroke` (single color) and `colors` with multiple colors.
+
 There is also some informations about the origin of the palette in `meta` (title, artist, year and techniques)  
