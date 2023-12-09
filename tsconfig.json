@@ -19,5 +19,6 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": ["src", "__tests__/palette.ts"]
+	"include": ["src"],
+	"exclude": ["__tests__/index.ts"]
 }
