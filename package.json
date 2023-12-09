@@ -1,5 +1,24 @@
 {
   "name": "canvas-colors",
+  "description": "A package to get random palette from iconic painting of art history",
+  "author": "Nicolas Lebrun",
+  "license": "MIT",
+  "homepage": "<YOUR_SITE_URL>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nclslbrn/canvas-colors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nclslbrn/canvas-colors/issues"
+  },
+  "keywords": [
+    "colors",
+    "creativecoding",
+    "palette",
+    "colorscheme",
+    "art-history",
+    "generativeart"
+  ],
   "version": "0.0.0",
   "type": "module",
   "main": "./dist/canvas-colors.umd.cjs",
@@ -16,9 +35,10 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "test": "jest",
     "preview": "vite preview",
-    "test": "jest"
+    "build": "tsc --project tsconfig.build.json && vite build",
+    "deploy": "npm publish"
   },
   "devDependencies": {
     "@types/jest": "^29.5.11",
@@ -28,5 +48,8 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
     "vite-plugin-dts": "^3.6.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@nclslbrn"
   }
 }
