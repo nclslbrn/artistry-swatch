@@ -1,4 +1,4 @@
-name: Publish to GitHub Package Registry
+name: Test after changer
 
 on: [push]
 
@@ -19,9 +19,4 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-        npm test      
-    - name: publish
-      env:
-        NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
-      run: |
-        npm run deploy
+        npm test

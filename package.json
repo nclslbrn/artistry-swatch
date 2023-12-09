@@ -1,5 +1,5 @@
 {
-  "name": "canvas-colors",
+  "name": "@nclslbrn/canvas-colors",
   "description": "A package to get random palette from iconic painting of art history",
   "author": "Nicolas Lebrun",
   "license": "MIT",
@@ -50,7 +50,7 @@
     "vite-plugin-dts": "^3.6.4"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@nclslbrn:registry": "https://npm.pkg.github.com"
   },
   "engines": {
     "node": ">=12.7"
