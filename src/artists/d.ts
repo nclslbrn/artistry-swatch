@@ -1,4 +1,4 @@
-import { type Scheme } from "../api"
+import { type Scheme } from "../index"
 
 export default [{
   background: "#ece3e4",

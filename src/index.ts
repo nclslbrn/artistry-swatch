@@ -1,6 +1,30 @@
-// https://onderonur.netlify.app/blog/creating-a-typescript-library-with-vite/
-// src/index.ts
-import { type Scheme, Args, DefaultArgs } from "./api"
+export interface Scheme {
+  background: string,
+  colors: string[],
+  stroke: string,
+  temp: 'cold' | 'warm' | 'neutral',
+  theme: 'bright' | 'dark', 
+  meta: {
+    title: string,
+    artist: string,
+    year: string,
+    techniques: string
+  }
+}
+
+export interface Args {
+  rand?: number,
+  temp?: 'any' | 'cold' | 'warm',
+  theme?: 'any' | 'bright' | 'dark',
+  artist?: string
+}
+
+export interface DefaultArgs extends Args {
+  rand: number,
+  temp: 'any' | 'cold' | 'warm',
+  theme: 'any' | 'bright' | 'dark',
+  artist: string
+}
 
 import b from './artists/b';
 import c from './artists/c';
