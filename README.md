@@ -1,23 +1,23 @@
-# canvas-colors
+# iconic-palettes
 
 A package to get random palette from iconic painting of art history
 
 ## Installation
 
 ```
-npm install @nclslbrn/canvas-colors
+npm install @nclslbrn/iconic-palettes
 ```
 
 - or - 
 ```
-yarn add @nclslbrn/canvas-colors
+yarn add @nclslbrn/iconic-palettes
 ```
 
 
 ## How use it
 
 ```
-import { getPalette } from '@nclslbrn/canvas-colors'
+import { getPalette } from '@nclslbrn/iconic-palettes'
 
 // No filter
 const palette = getPalette()
