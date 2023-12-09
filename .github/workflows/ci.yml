@@ -1,4 +1,4 @@
-name: Test after changer
+name: Test
 
 on: [push]
 
