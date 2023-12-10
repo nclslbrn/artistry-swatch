@@ -38,7 +38,9 @@
     "test": "jest",
     "preview": "vite preview",
     "build": "tsc --project tsconfig.build.json && vite build",
-    "deploy": "npm publish"
+    "deploy": "npm publish",
+    "demo:dev": "vite demo/",
+    "demo:build": "tsc && vite build demo/"
   },
   "devDependencies": {
     "@types/jest": "^29.5.11",
