@@ -54,6 +54,6 @@
     "registry": "http://registry.npmjs.org"
   },
   "engines": {
-    "node": ">=12.7"
+    "node": ">=16.2"
   }
 }
