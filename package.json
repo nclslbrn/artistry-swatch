@@ -50,7 +50,7 @@
     "vite-plugin-dts": "^3.6.4"
   },
   "publishConfig": {
-    "@nclslbrn:registry": "https://npm.pkg.github.com"
+    "provenance": true
   },
   "engines": {
     "node": ">=12.7"
