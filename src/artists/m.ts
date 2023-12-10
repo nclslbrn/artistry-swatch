@@ -17,7 +17,7 @@ export default [  {
     title: "Suprematist Composition",
     artist: "Kazimir Malevich",
     year: "1916", 
-    techiques: "Oil"
+    techniques: "Oil"
   },
   background: "#eae8e6",
   colors: ["#001A56", "#197C3F", "#D4A821", "#C74C25"],

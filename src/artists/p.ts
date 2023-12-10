@@ -23,5 +23,5 @@ export default [  {
   colors: ["#D89CA9", "#1962A0", "#E8C051"],
   stroke: "#F1ECD7",
   temp: "warm",
-  theme: "cold"
+  theme: "dark"
 },] as Scheme[]
