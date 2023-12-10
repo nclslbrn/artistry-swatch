@@ -14,7 +14,7 @@ export default [{
   theme: "dark"
 },{
   meta: {
-    title: "The Ten Largest,  No. 7, Adulthood",
+    title: "The Ten Largest, No. 7, Adulthood",
     artist: "Hilma af Klint",
     year: "1907", 
     techniques: "Tempera"
