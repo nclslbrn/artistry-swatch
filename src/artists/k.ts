@@ -9,7 +9,7 @@ export default [
 			techniques: 'Oil',
 		},
 		background: '#e4d9cb',
-		colors: ['#9a3a36', '#649085', '#e2cc6e'],
+		colors: ['#9a3a36', '#615a3c', '#649085', '#e2cc6e'],
 		stroke: '#292f2f',
 		temp: 'warm',
 		theme: 'bright',

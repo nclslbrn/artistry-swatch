@@ -25,6 +25,8 @@ export default [
 		background: '#df4b1d',
 		colors: ['#e76124', '#e67241', '#e89470', '#dcaf98', '#debfad'],
 		stroke: '#331107',
+		temp: 'warm',
+		theme: 'bright',
 	},
 	{
 		meta: {
