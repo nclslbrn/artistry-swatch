@@ -31,10 +31,22 @@ import c from './artists/c';
 import d from './artists/d';
 import g from './artists/g';
 import h from './artists/h';
+import k from './artists/k';
+import l from './artists/l';
+import m from './artists/m';
+import n from './artists/n';
+import o from './artists/o';
+import p from './artists/p';
+import r from './artists/r';
+import s from './artists/s';
+import t from './artists/t';
+import v from './artists/v';
 
 
 const palettes: Scheme[] = [
-  ...b, ...c, ...d, ...g, ...h
+  ...b, ...c, ...d, ...g, ...h, ...k,
+  ...l, ...m, ...n, ...o, ...p, ...r,
+  ...s, ...t, ...v
 ] 
 /**
  * Return a random palette 
