@@ -5,6 +5,7 @@ import dts from 'vite-plugin-dts';
 // https://vitejs.dev/guide/build.html#library-mode
 
 export default defineConfig({
+  base: 'iconic-palettes',
   build: {
     rollupOptions: {
       output: {
