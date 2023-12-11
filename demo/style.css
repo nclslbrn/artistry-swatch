@@ -17,7 +17,7 @@ body {
 
 #app {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .palette-block {
@@ -33,12 +33,26 @@ body {
 	box-shadow: 0 4px 8px rgb(0 0 0 / 30%);
 }
 
+.palette-block .palette-meta {
+	padding: 0 0.5em;
+}
+
 .palette-block.bright .palette-meta {
-	background-color: #fefefe;
+	background-color: #fefefe33;
+	color: #333;
 }
 
 .palette-block.dark .palette-meta {
-	background-color: #111111;
+	background-color: #11111133;
+	color: #fefefe;
+}
+.palette-block .palette-meta label {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+.palette-block .palette-meta label > span:last-child {
+	text-align: right;
 }
 
 .palette-meta h3 {
