@@ -16,6 +16,19 @@ export default [
 	},
 	{
 		meta: {
+			title: 'Colors for a Large Wall',
+			artist: 'Ellsworth Kelly',
+			year: '1951',
+			techniques: 'Oil',
+		},
+		background: '#e7dfd4',
+		colors: ['#86b35e', '#315daf', '#e4c51a', '#d25462', '#c31615', '#86569a'],
+		stroke: '#2a201d',
+		temp: 'warm',
+		theme: 'bright',
+	},
+	{
+		meta: {
 			title: 'Fire evening',
 			artist: 'Paul Klee',
 			year: '1929',

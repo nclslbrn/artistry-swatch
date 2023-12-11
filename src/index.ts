@@ -29,8 +29,10 @@ export interface DefaultArgs extends Args {
 import b from './artists/b';
 import c from './artists/c';
 import d from './artists/d';
+import f from './artists/f';
 import g from './artists/g';
 import h from './artists/h';
+import j from './artists/j';
 import k from './artists/k';
 import l from './artists/l';
 import m from './artists/m';
@@ -46,8 +48,10 @@ const palettes: Scheme[] = [
 	...b,
 	...c,
 	...d,
+	...f,
 	...g,
 	...h,
+	...j,
 	...k,
 	...l,
 	...m,

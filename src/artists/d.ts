@@ -42,6 +42,19 @@ export default [
 	},
 	{
 		meta: {
+			title: 'Transgressed crystals',
+			artist: 'Lia Drei',
+			year: '1974',
+			techniques: 'acrylic',
+		},
+		background: '#f42a12',
+		stroke: '#35363a',
+		colors: ['#cdcccc', '#398fc3', '#fa7e00', '#1e988e', '#cec401', '#304eba'],
+		temp: 'cold',
+		theme: 'bright',
+	},
+	{
+		meta: {
 			title: 'The Large Piece of Turf',
 			artist: 'Albrecht Dürer',
 			year: '1503',
