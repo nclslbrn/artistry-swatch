@@ -7,6 +7,11 @@ const div = (className: string): HTMLElement => {
 	return elem;
 };
 
+const app = document.getElementById('app'),
+    form = document.createElement('form'),
+    input = document.createElement('input'),
+    paletteGrid = div('palette-grid');
+
 const colorBlock = (palette: Scheme): HTMLElement => {
 	const block = div(`palette-block ${palette.theme}`);
 	block.style.backgroundColor = palette.background;
@@ -37,7 +42,24 @@ const colorBlock = (palette: Scheme): HTMLElement => {
 	return block;
 };
 
-const app = document.getElementById('app');
+const filteredPalette = (input: string) => {
+    if (input == '') return palettes
+    const reg = new RegExp(input.toLowerCase())
+    return palettes.filter(function(p: Scheme) {
+        if (p.meta.artist.toLowerCase().match(reg)) return p
+    })
+}
+
 if (app !== null) {
-	palettes.forEach((palette) => app.appendChild(colorBlock(palette)));
+    form.autocomplete = 'off'
+    form.appendChild(input)
+    app.appendChild(form)
+    app.appendChild(paletteGrid)
+	palettes.forEach((palette) => paletteGrid.appendChild(colorBlock(palette)));
+    input.placeholder = 'type an artist name'
+    input.onkeyup = function(e: KeyboardEvent): void {
+        paletteGrid.innerHTML = ''
+        const results = filteredPalette((e.target as HTMLInputElement).value)
+        results.forEach((palette) => paletteGrid.appendChild(colorBlock(palette)));
+    }
 }

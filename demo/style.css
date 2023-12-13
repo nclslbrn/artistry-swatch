@@ -12,10 +12,34 @@ body,
 }
 
 body {
-	padding: 2em;
+    background: linear-gradient(to bottom, #ffffff, #d9d6d6);
+    min-height: 100vh;
+}
+#app{
+    padding: 2em;
 }
 
-#app {
+#app form,
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#app form input,
+footer p {
+    text-align: center;
+}
+
+#app form input {
+    font-size: 1.4em;
+    padding: 0.4em;
+    margin-bottom: 1em;
+    border: 2px solid #ccc;
+}
+
+#app .palette-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
@@ -30,7 +54,7 @@ body {
 	text-align: center;
 	border-radius: 4px;
 	overflow: hidden;
-	box-shadow: 0 4px 8px rgb(0 0 0 / 30%);
+	box-shadow: 0 12px 18px rgb(0 0 0 / 24%);
 }
 
 .palette-block .palette-meta {
