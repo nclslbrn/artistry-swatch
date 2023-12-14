@@ -42,6 +42,7 @@ footer p {
 #app .palette-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 1em;
 }
 
 .palette-block {
@@ -50,7 +51,6 @@ footer p {
 	flex-flow: column nowrap;
 	justify-content: space-between;
 	padding: 0.5em;
-	margin: 1em;
 	text-align: center;
 	border-radius: 4px;
 	overflow: hidden;
