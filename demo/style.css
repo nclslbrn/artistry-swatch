@@ -15,9 +15,10 @@ body {
     background: linear-gradient(to bottom, #ffffff, #d9d6d6);
     min-height: 100vh;
 }
+
 #app{
     width: 84%;
-    margin: 1em 7%;
+    margin: 1em 8%;
 }
 
 #app form,
@@ -36,14 +37,14 @@ footer p {
 #app form input {
     font-size: 1.4em;
     padding: 0.4em;
-    margin-bottom: 1em;
+    margin: 1em 0 2em;
     border: 2px solid #ccc;
 }
 
 #app .palette-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-	grid-gap: 1em;
+	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-gap: 2em;
 }
 
 .palette-block {
