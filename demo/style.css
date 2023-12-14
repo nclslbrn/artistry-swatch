@@ -16,7 +16,8 @@ body {
     min-height: 100vh;
 }
 #app{
-    padding: 2em;
+    width: 84%;
+    margin: 1em 7%;
 }
 
 #app form,
