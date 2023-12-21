@@ -12,39 +12,75 @@ body,
 }
 
 body {
-    background: linear-gradient(to bottom, #ffffff, #d9d6d6);
-    min-height: 100vh;
+	background: linear-gradient(to bottom, #ffffff, #d9d6d6);
+	min-height: 100vh;
 }
 
-#app{
-    width: 84%;
-    margin: 1em 8%;
+#app {
+	width: 84%;
+	margin: 1em 8%;
 }
 
 #app form,
 footer {
-    display: flex;
-    flex-flow: row nowrap;
-    width: 100%;
-    justify-content: space-evenly;
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+	justify-content: space-evenly;
 }
 
 #app form input,
 footer p {
-    text-align: center;
+	text-align: center;
 }
 
 #app form input {
-    font-size: 1.4em;
-    padding: 0.4em;
-    margin: 1em 0 2em;
-    border: 2px solid #ccc;
+	font-size: 1.4em;
+	padding: 0.4em;
+	margin: 1em 0 2em;
+	border: 2px solid #ccc;
 }
 
 #app .palette-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	grid-gap: 2em;
+}
+
+#app .create-palette {
+	padding: 1em;
+	width: 600px;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin: 2em auto;
+	background: #fefefe;
+}
+
+#app .create-palette img,
+#app .create-palette pre,
+#app .create-palette .palette-out {
+	position: relative;
+	width: 90%;
+	margin: 0 5%;
+	height: auto;
+}
+
+#app .create-palette input[type='file'] {
+	margin: 1em 0;
+	padding: 0.4em;
+	border: none;
+	background: linear-gradient(to bottom, #333, #111);
+	color: #fff;
+}
+
+#app .create-palette pre {
+	margin-top: 2em;
+	word-break: break-word;
+	white-space: break-spaces;
+	border: 1px solid #ccc;
+	background: #f2f2f2;
+	border-radius: 4px;
 }
 
 .palette-block {
