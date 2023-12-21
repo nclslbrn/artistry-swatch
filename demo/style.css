@@ -49,12 +49,10 @@ footer p {
 
 #app .create-palette {
 	padding: 1em;
-	width: 600px;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	margin: 2em auto;
-	background: #fefefe;
 }
 
 #app .create-palette img,
