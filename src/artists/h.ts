@@ -16,20 +16,6 @@ export default [
 	},
 	{
 		meta: {
-			title: 'Divisions (Roach and Surface)',
-			artist: 'Carsten Höller',
-			year: '2016',
-			techniques:
-				'Acrylic glass, paint, stainless steel, screws, and roach (fish taxidermy: Matthias Fahrni)',
-		},
-		background: '#df4b1d',
-		colors: ['#e76124', '#e67241', '#e89470', '#dcaf98', '#debfad'],
-		stroke: '#331107',
-		temp: 'warm',
-		theme: 'bright',
-	},
-	{
-		meta: {
 			title: 'New York Movie',
 			artist: 'Edward Hopper',
 			year: '1939',
