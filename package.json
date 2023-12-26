@@ -53,7 +53,7 @@
   },
   "publishConfig": {
     "provenance": true,
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://npm.pkg.github.com/"
   },
   "engines": {
     "node": ">=16.2"
