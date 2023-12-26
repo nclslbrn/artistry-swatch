@@ -29,6 +29,41 @@ export default [
 	},
 	{
 		meta: {
+			title:
+				'The Wedding of Princess Mihr and Nahid. From a "Mihr-u Mushtari" by Muhammad Assar Tabrizi',
+			artist: 'Ibrahim Khalil',
+			year: '1523',
+			techniques: 'Unknown',
+		},
+		background: '#363c47',
+		colors: [
+			'#c9966f',
+			'#d9cdb7',
+			'#656551',
+			'#8ba4b5',
+			'#8b2e21',
+			'#9d5227',
+			'#927458',
+		],
+		stroke: '#e8c484',
+		temp: 'neutral',
+		theme: 'bright',
+	},
+	{
+		meta: {
+			title: 'Walhalla',
+			artist: 'Anselm Kiefer',
+			year: '2016',
+			techniques: 'Acrylic, emulsion, shellac and clay',
+		},
+		background: '#312826',
+		colors: ['#433228', '#656462', '#bfc0bb'],
+		stroke: '#9f7242',
+		temp: 'warm',
+		theme: 'dark',
+	},
+	{
+		meta: {
 			title: 'Fire evening',
 			artist: 'Paul Klee',
 			year: '1929',

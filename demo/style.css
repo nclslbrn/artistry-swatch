@@ -43,7 +43,7 @@ footer p {
 
 #app .palette-grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	grid-gap: 2em;
 }
 
@@ -139,4 +139,14 @@ footer p {
 	height: 3em;
 	flex-basis: 3em;
 	margin: 0.33em;
+}
+
+footer > p {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+footer > p > * {
+	margin: 0 0.4em;
 }
