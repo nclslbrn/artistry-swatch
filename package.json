@@ -52,8 +52,7 @@
     "vite-plugin-dts": "^3.6.4"
   },
   "publishConfig": {
-    "provenance": true,
-    "registry": "https://registry.npmjs.org"
+    "@nclslbrn:registry": "https://npm.pkg.github.com"
   },
   "engines": {
     "node": ">=16.2"
