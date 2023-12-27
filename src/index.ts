@@ -30,6 +30,7 @@ import a from './artists/a';
 import b from './artists/b';
 import c from './artists/c';
 import d from './artists/d';
+import e from './artists/e';
 import f from './artists/f';
 import g from './artists/g';
 import h from './artists/h';
@@ -50,6 +51,7 @@ const palettes: Scheme[] = [
 	...b,
 	...c,
 	...d,
+	...e,
 	...f,
 	...g,
 	...h,

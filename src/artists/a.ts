@@ -16,6 +16,19 @@ export default [
 	},
 	{
 		meta: {
+			title: 'Untitled (2nd Battalion Parachute Regiment),',
+			artist: 'Francis Alÿs,',
+			year: '2013',
+			techniques: 'unknown',
+		},
+		background: '#6c81bd',
+		colors: ['#7a7f76', '#aeae9d', '#5e6260', '#868b8c', '#cdd1c9'],
+		stroke: '#273b95',
+		temp: 'neutral',
+		theme: 'bright',
+	},
+	{
+		meta: {
 			title: 'Untitled 1',
 			artist: 'Richard Anuszkiewicz',
 			year: '1991',

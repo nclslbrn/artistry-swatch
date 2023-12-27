@@ -16,6 +16,19 @@ export default [
 	},
 	{
 		meta: {
+			title: 'Oceans apart',
+			artist: 'Ingrid Pollard',
+			year: '1989',
+			techniques: 'photography',
+		},
+		background: '#d8d6ce',
+		colors: ['#917439', '#2c6d4f', '#5e7b2d'],
+		stroke: '#1a1614',
+		temp: 'cold',
+		theme: 'bright',
+	},
+	{
+		meta: {
 			title: 'Number 1',
 			artist: 'Jackson Pollock',
 			year: '1949',

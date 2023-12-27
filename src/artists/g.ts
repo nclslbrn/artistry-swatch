@@ -40,4 +40,17 @@ export default [
 		temp: 'warm',
 		theme: 'dark',
 	},
+	{
+		meta: {
+			title: 'Laocoön',
+			artist: 'El Greco',
+			year: '1610',
+			techniques: 'Oil',
+		},
+		background: '#568c99',
+		colors: ['#3e7178', '#364d50', '#1e1f1b', '#cebda6', '#d4cab0'],
+		stroke: '#908f7a',
+		temp: 'cold',
+		theme: 'bright',
+	},
 ] as Scheme[];
