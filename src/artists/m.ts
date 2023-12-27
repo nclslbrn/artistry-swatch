@@ -40,4 +40,17 @@ export default [
 		temp: 'cold',
 		theme: 'bright',
 	},
+	{
+		meta: {
+			title: 'Ten views of Fuji',
+			artist: 'Yoshida Mura',
+			year: '1926',
+			techniques: 'Unknown',
+		},
+		background: '#D9D2C5',
+		colors: ['#53594A', '#8FBFBF', '#5A6773'],
+		stroke: '#3B4034',
+		temp: 'cold',
+		theme: 'bright',
+	},
 ] as Scheme[];
