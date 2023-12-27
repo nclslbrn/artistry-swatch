@@ -45,6 +45,7 @@ import r from './artists/r';
 import s from './artists/s';
 import t from './artists/t';
 import v from './artists/v';
+import y from './artists/y';
 
 const palettes: Scheme[] = [
 	...a,
@@ -66,6 +67,7 @@ const palettes: Scheme[] = [
 	...s,
 	...t,
 	...v,
+	...y,
 ];
 /**
  * Return a random palette
