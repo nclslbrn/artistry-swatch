@@ -1,3 +1,3 @@
-import { type Scheme } from '../index';
+import { Scheme } from './../type.d';
 
-export default [] as Scheme[];
+export {};

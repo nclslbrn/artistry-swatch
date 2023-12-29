@@ -1,74 +1,74 @@
-export interface Scheme {
-	background: string;
-	colors: string[];
-	stroke: string;
-	temp: 'cold' | 'warm' | 'neutral';
-	theme: 'bright' | 'dark';
-	meta: {
-		title: string;
-		artist: string;
-		year: string;
-		techniques: string;
-	};
-}
+import { type Scheme, Args, DefaultArgs, EntryScheme } from './type';
 
-export interface Args {
-	rand?: number;
-	temp?: 'any' | 'cold' | 'warm';
-	theme?: 'any' | 'bright' | 'dark';
-	artist?: string;
-}
+import { albers, alys, anuszkiewicz } from './artists/a';
+import { bacon, bruegel } from './artists/b';
+import { corbusier } from './artists/c';
+import { dali, delaunay, doesburg, drei, durer } from './artists/d';
+//import e from './artists/e';
+import { freud } from './artists/f';
+import { gentileschi, giacometti, goldin, greco } from './artists/g';
+import { hockney, hopper } from './artists/h';
+import { judd } from './artists/j';
+import { kandinsky, kelly, khalil, kiefer, klee, klint } from './artists/k';
+import { lewitt } from './artists/l';
+import { magritte, malevich, martin, mura } from './artists/m';
+import { newman } from './artists/n';
+import { okeefe } from './artists/o';
+import { picasso, pollard, pollock } from './artists/p';
+import { riley, rothko } from './artists/r';
+import { saville, sherman } from './artists/s';
+import { turner } from './artists/t';
+import { vasarely, vermeer } from './artists/v';
+import { yoshitoshi } from './artists/y';
 
-export interface DefaultArgs extends Args {
-	rand: number;
-	temp: 'any' | 'cold' | 'warm';
-	theme: 'any' | 'bright' | 'dark';
-	artist: string;
-}
+const entries: EntryScheme = {
+	albers,
+	alys,
+	anuszkiewicz,
+	bacon,
+	bruegel,
+	corbusier,
+	dali,
+	delaunay,
+	doesburg,
+	drei,
+	durer,
+	freud,
+	gentileschi,
+	giacometti,
+	goldin,
+	greco,
+	hockney,
+	hopper,
+	judd,
+	kandinsky,
+	kelly,
+	khalil,
+	kiefer,
+	klee,
+	klint,
+	lewitt,
+	magritte,
+	malevich,
+	martin,
+	mura,
+	newman,
+	okeefe,
+	picasso,
+	pollard,
+	pollock,
+	riley,
+	rothko,
+	saville,
+	sherman,
+	turner,
+	vasarely,
+	vermeer,
+	yoshitoshi,
+};
 
-import a from './artists/a';
-import b from './artists/b';
-import c from './artists/c';
-import d from './artists/d';
-import e from './artists/e';
-import f from './artists/f';
-import g from './artists/g';
-import h from './artists/h';
-import j from './artists/j';
-import k from './artists/k';
-import l from './artists/l';
-import m from './artists/m';
-import n from './artists/n';
-import o from './artists/o';
-import p from './artists/p';
-import r from './artists/r';
-import s from './artists/s';
-import t from './artists/t';
-import v from './artists/v';
-import y from './artists/y';
-
-const palettes: Scheme[] = [
-	...a,
-	...b,
-	...c,
-	...d,
-	...e,
-	...f,
-	...g,
-	...h,
-	...j,
-	...k,
-	...l,
-	...m,
-	...n,
-	...o,
-	...p,
-	...r,
-	...s,
-	...t,
-	...v,
-	...y,
-];
+const palettesKey = Object.keys(entries);
+const palettes: Scheme[] = palettesKey.map((id) => entries[id]);
 /**
  * Return a random palette
  *
@@ -132,4 +132,50 @@ const getPalette = (args: Args): false | Scheme => {
 	}
 };
 
-export { palettes, getPalette };
+export {
+	albers,
+	alys,
+	anuszkiewicz,
+	bacon,
+	bruegel,
+	corbusier,
+	dali,
+	delaunay,
+	doesburg,
+	drei,
+	durer,
+	freud,
+	gentileschi,
+	giacometti,
+	goldin,
+	greco,
+	hockney,
+	hopper,
+	judd,
+	kandinsky,
+	kelly,
+	khalil,
+	kiefer,
+	klee,
+	klint,
+	lewitt,
+	magritte,
+	malevich,
+	martin,
+	mura,
+	newman,
+	okeefe,
+	picasso,
+	pollard,
+	pollock,
+	riley,
+	rothko,
+	saville,
+	sherman,
+	turner,
+	vasarely,
+	vermeer,
+	yoshitoshi,
+	palettes,
+	getPalette,
+};
