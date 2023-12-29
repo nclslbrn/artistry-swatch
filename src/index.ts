@@ -15,7 +15,7 @@ import { magritte, malevich, martin, mura } from './artists/m';
 import { newman } from './artists/n';
 import { okeefe } from './artists/o';
 import { picasso, pollard, pollock } from './artists/p';
-import { riley, rothko } from './artists/r';
+import { rauschenberg, riley, rothko } from './artists/r';
 import { saville, sherman } from './artists/s';
 import { turner } from './artists/t';
 import { vasarely, vermeer } from './artists/v';
@@ -59,6 +59,7 @@ const entries: EntryScheme = {
 	picasso,
 	pollard,
 	pollock,
+	rauschenberg,
 	riley,
 	rothko,
 	saville,

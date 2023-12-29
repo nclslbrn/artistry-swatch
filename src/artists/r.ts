@@ -1,5 +1,27 @@
 import { Scheme } from './../type.d';
 
+const rauschenberg: Scheme = {
+	meta: {
+		title: 'Collection',
+		artist: 'Robert Rauschenberg',
+		year: '1954',
+		techniques: 'Oil, paper, fabric, wood, and metal',
+	},
+	background: '#274062',
+	colors: [
+		'#a5694e',
+		'#684f44',
+		'#dbb771',
+		'#c3a08e',
+		'#dcc8b7',
+		'#a32d25',
+		'#c19970',
+	],
+	stroke: '#de9e50',
+	temp: 'warm',
+	theme: 'bright',
+};
+
 const riley: Scheme = {
 	meta: {
 		title: 'Movement in Squares',
@@ -36,4 +58,4 @@ const rothko: Scheme = {
 	theme: 'bright',
 };
 
-export { riley, rothko };
+export { rauschenberg, riley, rothko };
