@@ -1,5 +1,5 @@
 import ColorThief from './color-thief.mjs';
-import { Scheme } from './../../src/index';
+import { Scheme } from './../../src/type';
 import { div, colorBlock } from './colorBlock';
 
 type TGenericEvent<T> = Event & { target: T };
@@ -50,6 +50,8 @@ const sampler = {
 		const createPaletteBlock = document.createElement('div');
 		createPaletteBlock.classList.add('create-palette');
 		createPaletteBlock.innerHTML = '<h3>Sample a palette from an image</h3>';
+		createPaletteBlock.innerHTML +=
+			'<small>Color extraction with <a href="https://github.com/lokesh/color-thief">color-thief</a>';
 		sampler.inputFile.type = 'file';
 		createPaletteBlock.appendChild(sampler.img);
 		createPaletteBlock.appendChild(sampler.inputFile);

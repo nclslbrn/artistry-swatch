@@ -51,15 +51,21 @@ footer p {
 		border: 2px solid #ccc;
 	}
 }
-	
 
+#app .palette-grid,
+#app table {
+	width: 84%;
+	margin: 1em 8%;
+}
 
 #app .palette-grid {
 	display: grid;
-	width: 84%;
-	margin: 1em 8%;
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	grid-gap: 2em;
+}
+
+#app table {
+	border-collapse: collapse;
 }
 
 #app .create-palette {
@@ -94,6 +100,47 @@ footer p {
 	border: 1px solid #ccc;
 	background: #f2f2f2;
 	border-radius: 4px;
+}
+
+#app table thead tr th {
+	padding: 4px;
+	border-bottom: 4px solid #333;
+}
+
+#app table tbody tr td {
+	border-top: 1px solid #333;
+	padding: 0 4px;
+}
+
+#app table tbody tr td span {
+	display: inline-block;
+	margin: 0.5;
+	width: 3em;
+	height: 3em;
+	border-radius: 1.5em;
+}
+
+#app table tr .artist {
+	width: 20%;
+}
+#app table tr .work {
+	width: 35%;
+}
+
+#app table tr .stroke,
+#app table tr .background,
+#app table tr .colors {
+	width: 5%;
+	text-align: center;
+}
+
+#app table tr .colors {
+	width: 35%;
+}
+
+#app table tbody tr td h2,
+#app table tbody tr td p {
+	margin: 0.2em 0;
 }
 
 .palette-block {

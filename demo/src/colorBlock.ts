@@ -1,4 +1,4 @@
-import { Scheme } from './../../src/index';
+import { Scheme } from './../../src/type';
 
 const div = (className: string): HTMLElement => {
 	const elem = document.createElement('div');
