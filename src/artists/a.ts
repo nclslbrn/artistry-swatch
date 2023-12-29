@@ -28,6 +28,20 @@ const alys: Scheme = {
 	theme: 'bright',
 };
 
+const andre: Scheme = {
+	meta: {
+		title: 'Untilted',
+		artist: 'Carl Andre',
+		year: '1958',
+		techniques: 'Collage',
+	},
+	background: '#023059',
+	colors: ['#D9B504', '#D9A404', '#D96725'],
+	stroke: '#F2F2F2',
+	temp: 'warm',
+	theme: 'dark',
+};
+
 const anuszkiewicz: Scheme = {
 	meta: {
 		title: 'Untitled 1',
@@ -50,4 +64,4 @@ const anuszkiewicz: Scheme = {
 	theme: 'bright',
 };
 
-export { albers, alys, anuszkiewicz };
+export { albers, alys, andre, anuszkiewicz };
