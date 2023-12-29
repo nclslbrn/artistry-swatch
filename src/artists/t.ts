@@ -1,5 +1,19 @@
 import { Scheme } from './../type.d';
 
+const taubierArp: Scheme = {
+	meta: {
+		title: 'Plate from 10 Origin',
+		artist: 'Sophie Taeuber-Arp',
+		year: '1942',
+		techniques: 'Linoleum cut',
+	},
+	background: '#F2DAC4',
+	colors: ['#4BA6A6', '#F2441D'],
+	stroke: '#403836',
+	temp: 'warm',
+	theme: 'bright',
+};
+
 const turner: Scheme = {
 	meta: {
 		title: 'The Fifth Plague of Egypt',
@@ -14,4 +28,4 @@ const turner: Scheme = {
 	theme: 'dark',
 };
 
-export { turner };
+export { taubierArp, turner };
