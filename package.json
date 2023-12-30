@@ -27,11 +27,12 @@
   "exports": {
     ".": {
       "import": "./dist/iconic-palettes.js",
-      "require": "./dist/iconic-palettes.umd.cjs"
+      "require": "./dist/iconic-palettes.umd.cjs",
+      "type": "./dist/index.d.ts"
     }
   },
   "files": [
-    "dist"
+    "dist/"
   ],
   "scripts": {
     "dev": "vite",
