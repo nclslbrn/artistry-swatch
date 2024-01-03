@@ -19,7 +19,7 @@
     "art-history",
     "generativeart"
   ],
-  "version": "0.0.1",
+  "version": "0.0.5",
   "type": "module",
   "main": "./dist/iconic-palettes.umd.cjs",
   "module": "./dist/iconic-palettes.js",
