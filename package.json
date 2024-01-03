@@ -32,7 +32,7 @@
     }
   },
   "files": [
-    "dist/"
+    "dist/*.js", "dist/*.d.ts"
   ],
   "scripts": {
     "dev": "vite",
