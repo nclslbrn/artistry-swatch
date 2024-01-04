@@ -5,25 +5,25 @@ A package to get random palette from iconic painting of art history
 ## Installation
 
 ```
-npm install @nclslbrn/iconic-palettes
+npm install @nclslbrn/artistry-swatch
 ```
 
-- or - 
+- or -
 ```
-yarn add @nclslbrn/iconic-palettes
+yarn add @nclslbrn/artistry-swatch
 ```
 
 
 ## How use it
 
 ```
-import { getPalette } from '@nclslbrn/iconic-palettes'
+import { getPalette } from '@nclslbrn/artistry-swatch'
 
 // No filter
 const palette = getPalette()
 
 // Specify a random value ($fx.rand() for exemple)
-const palette = getPalette({ rand: 0.6 }) 
+const palette = getPalette({ rand: 0.6 })
 
 // Specify temperature of palette
 const palette = getPalette({ temp: 'warm' })
@@ -33,7 +33,7 @@ const palette = getPalette({ theme: 'dark' })
 
 // Specify an artist
 const palette = getPalette({ artist: "Albrecht Dürer"})
-``` 
+```
 | Parameters | Value                                       | Default       |
 |------------|---------------------------------------------|---------------|
 | rand       | float between 0 & 1                         | Math.random() |
@@ -64,8 +64,8 @@ The getPalette will return only one palette, here is an exemple.
   meta: {
     title: "Stained glass composition, Woman",
     artist: "Theo van Doesburg",
-    year: "1917", 
+    year: "1917",
     techniques: "Glass",
-  }   
+  }
 }
 ```
