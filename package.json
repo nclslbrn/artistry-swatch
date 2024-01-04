@@ -1,15 +1,15 @@
 {
-  "name": "@nclslbrn/iconic-palettes",
+  "name": "@nclslbrn/artistry-swatch",
   "description": "A package to get random palette from iconic painting of art history",
   "author": "Nicolas Lebrun <nclslbrn@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/nclslbrn/iconic-palettes",
+  "homepage": "https://github.com/nclslbrn/artistry-swatch",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nclslbrn/iconic-palettes.git"
+    "url": "https://github.com/nclslbrn/artistry-swatch.git"
   },
   "bugs": {
-    "url": "https://github.com/nclslbrn/iconic-palettes/issues"
+    "url": "https://github.com/nclslbrn/artistry-swatch/issues"
   },
   "keywords": [
     "colors",
@@ -17,17 +17,19 @@
     "palette",
     "colorscheme",
     "art-history",
-    "generativeart"
+    "generativeart",
+    "paintings",
+    "swatch"
   ],
   "version": "0.0.5",
   "type": "module",
-  "main": "./dist/iconic-palettes.umd.cjs",
-  "module": "./dist/iconic-palettes.js",
+  "main": "./dist/artistry-swatch.umd.cjs",
+  "module": "./dist/artistry-swatch.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/iconic-palettes.js",
-      "require": "./dist/iconic-palettes.umd.cjs",
+      "import": "./dist/artistry-swatch.js",
+      "require": "./dist/artistry-swatch.umd.cjs",
       "type": "./dist/index.d.ts"
     }
   },
