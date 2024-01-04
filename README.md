@@ -1,4 +1,4 @@
-# iconic-palettes
+# Artistry-swatch
 
 A package to get random palette from iconic painting of art history
 
