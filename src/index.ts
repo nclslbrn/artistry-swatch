@@ -17,7 +17,7 @@ import { okeefe } from './artists/o';
 import { picasso, pollard, pollock } from './artists/p';
 import { rauschenberg, riley, rothko } from './artists/r';
 import { saville, sherman } from './artists/s';
-import { taubierArp, turner } from './artists/t';
+import { taeuberArp, turner } from './artists/t';
 import { vasarely, vermeer } from './artists/v';
 import { yoshitoshi } from './artists/y';
 
@@ -64,7 +64,7 @@ const entries: EntryScheme = {
 	rothko,
 	saville,
 	sherman,
-	taubierArp,
+	taeuberArp,
 	turner,
 	vasarely,
 	vermeer,

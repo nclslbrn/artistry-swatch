@@ -1,6 +1,6 @@
 import { Scheme } from './../type.d';
 
-const taubierArp: Scheme = {
+const taeuberArp: Scheme = {
 	meta: {
 		title: 'Plate from 10 Origin',
 		artist: 'Sophie Taeuber-Arp',
@@ -28,4 +28,4 @@ const turner: Scheme = {
 	theme: 'dark',
 };
 
-export { taubierArp, turner };
+export { taeuberArp, turner };
