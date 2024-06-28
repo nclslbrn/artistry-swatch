@@ -8,18 +8,19 @@ import { ernst } from './artists/e';
 import { freud } from './artists/f';
 import { gentileschi, giacometti, goldin, greco } from './artists/g';
 import { hockney, hopper } from './artists/h';
-import { judd } from './artists/j';
+import { judd, johns } from './artists/j';
 import { kandinsky, kelly, khalil, kiefer, klee, klint } from './artists/k';
 import { lewitt } from './artists/l';
-import { magritte, malevich, martin, mura } from './artists/m';
+import { magritte, malevich, martin, molnar, moss, mura } from './artists/m';
 import { newman } from './artists/n';
-import { okeefe } from './artists/o';
+import { okeefe, orozco } from './artists/o';
 import { picasso, pollard, pollock } from './artists/p';
-import { rauschenberg, riley, rothko } from './artists/r';
+import { rauschenberg, riley, rothko, rozanova } from './artists/r';
 import { saville, sherman } from './artists/s';
 import { taeuberArp, turner } from './artists/t';
 import { vasarely, vermeer } from './artists/v';
 import { yoshitoshi } from './artists/y';
+import { warb } from './artists/w.ts'
 
 const entries: EntryScheme = {
 	albers,
@@ -42,6 +43,7 @@ const entries: EntryScheme = {
 	greco,
 	hockney,
 	hopper,
+  johns,
 	judd,
 	kandinsky,
 	kelly,
@@ -53,15 +55,19 @@ const entries: EntryScheme = {
 	magritte,
 	malevich,
 	martin,
+  molnar,
+  moss,
 	mura,
 	newman,
 	okeefe,
+  orozco,
 	picasso,
 	pollard,
 	pollock,
 	rauschenberg,
 	riley,
 	rothko,
+  rozanova,
 	saville,
 	sherman,
 	taeuberArp,
@@ -69,6 +75,7 @@ const entries: EntryScheme = {
 	vasarely,
 	vermeer,
 	yoshitoshi,
+  warb  
 };
 
 const palettesKey = Object.keys(entries);
