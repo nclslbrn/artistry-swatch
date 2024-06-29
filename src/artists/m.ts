@@ -53,7 +53,7 @@ const molnar: Scheme = {
   colors: ["#75675e", "#3b2521", "#292929", "#6e2819"],
   stroke: "#dbdad2",
   temp: "warm",
-  theme: "bright"
+  theme: "bright",
 };
 
 const moss: Scheme = {
