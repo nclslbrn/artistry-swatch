@@ -21,7 +21,7 @@
     "paintings",
     "swatch"
   ],
-  "version": "0.0.4a",
+  "version": "0.0.5",
   "type": "module",
   "main": "./dist/artistry-swatch.umd.cjs",
   "module": "./dist/artistry-swatch.js",
