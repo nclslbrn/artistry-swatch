@@ -10,17 +10,17 @@ import { gentileschi, giacometti, goldin, greco } from "./artists/g";
 import { hockney, hopper } from "./artists/h";
 import { judd, johns } from "./artists/j";
 import { kandinsky, kelly, khalil, kiefer, klee, klint } from "./artists/k";
-import { lewitt } from "./artists/l";
+import { lissitzky, lewitt } from "./artists/l";
 import { magritte, malevich, martin, molnar, moss, mura } from "./artists/m";
-import { newman } from "./artists/n";
+import { nauman, newman } from "./artists/n";
 import { okeefe, orozco } from "./artists/o";
-import { picasso, pollard, pollock } from "./artists/p";
+import { picasso, pollard, pollock, popova } from "./artists/p";
 import { rauschenberg, riley, rothko, rozanova } from "./artists/r";
 import { saville, sherman } from "./artists/s";
 import { taeuberArp, turner } from "./artists/t";
 import { vasarely, vermeer } from "./artists/v";
 import { yoshitoshi } from "./artists/y";
-import { warb } from "./artists/w.ts";
+import { warhol, warb } from "./artists/w.ts";
 
 const entries: EntryScheme = {
   albers,
@@ -51,6 +51,7 @@ const entries: EntryScheme = {
   kiefer,
   klee,
   klint,
+  lissitzky,
   lewitt,
   magritte,
   malevich,
@@ -58,12 +59,14 @@ const entries: EntryScheme = {
   molnar,
   moss,
   mura,
+  nauman,
   newman,
   okeefe,
   orozco,
   picasso,
   pollard,
   pollock,
+  popova,
   rauschenberg,
   riley,
   rothko,
@@ -75,6 +78,7 @@ const entries: EntryScheme = {
   vasarely,
   vermeer,
   yoshitoshi,
+  warhol,
   warb,
 };
 
@@ -170,6 +174,7 @@ export {
   kiefer,
   klee,
   klint,
+  lissitzky,
   lewitt,
   magritte,
   malevich,
@@ -177,6 +182,7 @@ export {
   molnar,
   moss,
   mura,
+  nauman,
   newman,
   okeefe,
   orozco,
@@ -192,6 +198,7 @@ export {
   vasarely,
   vermeer,
   yoshitoshi,
+  warhol,
   warb,
   palettes,
   getPalette,

@@ -15,13 +15,14 @@ const judd: Scheme = {
 };
 
 const johns: Scheme = {
-  meta: { title: "Regrets", artist: "Jasper Johns", year: "2014", techniques: "Aquatint with chine collé" },
+  meta: {
+    title: "Regrets",
+    artist: "Jasper Johns",
+    year: "2014",
+    techniques: "Aquatint with chine collé",
+  },
   background: "#333534",
-  colors: [
-    "#dcd8d0",
-    "#797c7a",
-    "#89867f",
-  ],
+  colors: ["#dcd8d0", "#797c7a", "#89867f"],
   stroke: "#949494",
   temp: "neutral",
   theme: "dark",

@@ -66,12 +66,7 @@ const rozanova: Scheme = {
     techniques: "oil",
   },
   background: "#f1ead5",
-  colors: [
-    "#d12419",
-    "#e2a935",
-    "#151963",
-    "#aaa23a",
-  ],
+  colors: ["#d12419", "#e2a935", "#151963", "#aaa23a"],
   stroke: "#19161f",
   temp: "neutral",
   theme: "bright",

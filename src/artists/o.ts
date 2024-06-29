@@ -14,7 +14,6 @@ const okeefe: Scheme = {
   theme: "bright",
 };
 
-
 const orozco: Scheme = {
   meta: {
     title: "Kytes Tree",
