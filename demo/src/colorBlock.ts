@@ -8,17 +8,19 @@ const div = (className: string): HTMLElement => {
 
 const colorBlock = (palette: Scheme): HTMLElement => {
 	const block = div(`palette-block ${palette.theme}`);
-	block.style.backgroundColor = palette.background;
 
 	const colors = div(`colors col-${palette.colors.length}`);
-	palette.colors.forEach((color) => {
+	palette.colors.forEach((color, i) => {
 		const colDiv = div('color');
 		colDiv.style.backgroundColor = color;
-		colDiv.style.border = `${Math.round(Math.random() * 8)}px solid ${
-			palette.stroke
-		}`;
+    
+    const num = document.createElement('p')
+    num.innerHTML = (i+1)
+    num.style.color = palette.stroke
+    colDiv.appendChild(num)
 		colors.appendChild(colDiv);
 	});
+	colors.style.backgroundColor = palette.background;
 	const meta = div('palette-meta');
 	meta.innerHTML = `
   <h3>${palette.meta.artist}</h3>
