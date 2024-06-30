@@ -11,7 +11,7 @@ import { hockney, hopper } from "./artists/h";
 import { judd, johns } from "./artists/j";
 import { kandinsky, kelly, khalil, kiefer, klee, klint } from "./artists/k";
 import { lissitzky, lewitt } from "./artists/l";
-import { magritte, malevich, martin, molnar, moss, mura } from "./artists/m";
+import { magritte, malevich, martin, molnar, moss, mucha, mura } from "./artists/m";
 import { nauman, newman } from "./artists/n";
 import { okeefe, orozco } from "./artists/o";
 import { picasso, pollard, pollock, popova } from "./artists/p";
