@@ -23,7 +23,7 @@ const bosch: Scheme = {
     techniques: "Oil",
   },
   background: "#D8D2B5",
-  colors: ["#D79967", "#B41E30", "#69705A", ""],
+  colors: ["#D79967", "#B41E30", "#69705A"],
   stroke: "#474C4B",
   temp: "warm",
   theme: "bright",

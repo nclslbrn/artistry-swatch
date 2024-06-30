@@ -72,4 +72,18 @@ const rozanova: Scheme = {
   theme: "bright",
 };
 
-export { rauschenberg, riley, rothko, rozanova };
+const ruscha: Scheme = {
+  meta: {
+    title: "Standard Station",
+    artist: "Edward Ruscha",
+    year: "1916",
+    techniques: "Screenprint",
+  },
+  background: "#ECE1D2",
+  colors: ["#C6071F", "#DF0220", "#B7B0AA", "#EBE0D1", "#EFE3D5"],
+  stroke: "#202D49",
+  temp: "warm",
+  theme: "bright",
+};
+
+export { rauschenberg, riley, rothko, rozanova, ruscha };

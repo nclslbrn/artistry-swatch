@@ -93,4 +93,27 @@ const klint: Scheme = {
   theme: "bright",
 };
 
-export { kandinsky, kelly, khalil, kiefer, klee, klint };
+const kupka: Scheme = {
+  meta: {
+    title:
+      "Mme Kupka among Verticals",
+    artist: "František Kupka",
+    year: "1910-11",
+    techniques: "Oil",
+  },
+  background: "#6a505a",
+  colors: [
+    "#c49572",
+    "#a76b57",
+    "#a5a493",
+    "#838374",
+    "#5b5f7f",
+    "#272831",
+    "#98412a",
+  ],
+  stroke: "#85222c",
+  temp: "warm",
+  theme: "bright",
+};
+
+export { kandinsky, kelly, khalil, kiefer, klee, klint, kupka };

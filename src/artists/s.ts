@@ -14,6 +14,20 @@ const saville: Scheme = {
   theme: "bright",
 };
 
+const schmidt: Scheme = {
+  meta: {
+    title: "Offset Buch und Werbekunst, Jg. 7",
+    artist: "Joost Schmidt",
+    year: "1926",
+    techniques: "Book, letterpress and offset printed",
+  },
+  background: "#E3D4C0",
+  colors: ["#999998", "#C49424", "#D25146", "#403F3A"],
+  stroke: "#59728C",
+  temp: "warm",
+  theme: "bright",
+};
+
 const sherman: Scheme = {
   meta: {
     title: "Untitled #92",
@@ -28,4 +42,4 @@ const sherman: Scheme = {
   theme: "dark",
 };
 
-export { saville, sherman };
+export { saville, schmidt, sherman };
