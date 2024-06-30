@@ -70,6 +70,20 @@ const moss: Scheme = {
   theme: "bright",
 };
 
+const mucha: Scheme = {
+  meta: {
+    title: "The Slav Epic",
+    artist: "Alfons Mucha",
+    year: "1928",
+    techniques: "Lithography",
+  },
+  background: "#EBECE8",
+  colors: ["#FCB273", "#F63123", "#F55723", "#509C94"],
+  stroke: "#6C530E",
+  temp: "warm",
+  theme: "bright",
+};
+
 const mura: Scheme = {
   meta: {
     title: "Ten views of Fuji",
@@ -84,4 +98,4 @@ const mura: Scheme = {
   theme: "bright",
 };
 
-export { magritte, malevich, martin, molnar, moss, mura };
+export { magritte, malevich, martin, molnar, moss, mucha, mura };

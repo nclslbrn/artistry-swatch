@@ -1,5 +1,20 @@
 import { Scheme } from "./../type.d";
 
+
+const fleischmann: Scheme = {
+  meta: {
+    title: "Composition #72",
+    artist: "Adolf Fleischmann",
+    year: "1956",
+    techniques: "Oil",
+  },
+  background: "#333236",
+  colors: ["#0084B8", "#615452", "#DC032B", "#D38A6A"],
+  stroke: "#D0D4D9",
+  theme: "dark",
+  temp: "neutral",
+};
+
 const freud: Scheme = {
   meta: {
     title: "Woman with a Daffodil summer",
@@ -14,4 +29,4 @@ const freud: Scheme = {
   temp: "warm",
 };
 
-export { freud };
+export { fleischmann, freud };

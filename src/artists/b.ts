@@ -15,6 +15,20 @@ const bacon: Scheme = {
   theme: "dark",
 };
 
+const bosch: Scheme = {
+  meta: {
+    title: "Le Jugement dernier ",
+    artist: "Jérôme Bosch",
+    year: "1486",
+    techniques: "Oil",
+  },
+  background: "#D8D2B5",
+  colors: ["#D79967", "#B41E30", "#69705A", ""],
+  stroke: "#474C4B",
+  temp: "warm",
+  theme: "bright",
+};
+
 const bruegel: Scheme = {
   meta: {
     title: "Landscape with the Fall of Icarus",
@@ -29,4 +43,4 @@ const bruegel: Scheme = {
   theme: "bright",
 };
 
-export { bacon, bruegel };
+export { bacon, bosch, bruegel };

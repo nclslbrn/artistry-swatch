@@ -64,4 +64,18 @@ const anuszkiewicz: Scheme = {
   theme: "bright",
 };
 
-export { albers, alys, andre, anuszkiewicz };
+const arp: Scheme = {
+  meta: {
+    title: "The Sun Recircled",
+    artist: "Jean Arp",
+    year: "1966",
+    techniques: "Woodcut",
+  },
+  background: "#72797D",
+  colors: ["#E94E62", "#FFD14C", "#36353A"],
+  stroke: "#A2A39F",
+  temp: "warm",
+  theme: "dark",
+};
+
+export { albers, alys, andre, anuszkiewicz, arp };

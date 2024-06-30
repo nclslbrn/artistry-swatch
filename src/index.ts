@@ -1,11 +1,11 @@
 import { type Scheme, Args, DefaultArgs, EntryScheme } from "./type";
 
-import { albers, alys, andre, anuszkiewicz } from "./artists/a";
-import { bacon, bruegel } from "./artists/b";
-import { corbusier } from "./artists/c";
+import { albers, alys, andre, anuszkiewicz, arp } from "./artists/a";
+import { bacon, bosch, bruegel } from "./artists/b";
+import { cahn, corbusier } from "./artists/c";
 import { dali, delaunay, doesburg, drei, durer } from "./artists/d";
 import { ernst } from "./artists/e";
-import { freud } from "./artists/f";
+import { fleischmann, freud } from "./artists/f";
 import { gentileschi, giacometti, goldin, greco } from "./artists/g";
 import { hockney, hopper } from "./artists/h";
 import { judd, johns } from "./artists/j";
@@ -27,8 +27,11 @@ const entries: EntryScheme = {
   alys,
   andre,
   anuszkiewicz,
+  arp,
   bacon,
+  bosch,
   bruegel,
+  cahn,
   corbusier,
   dali,
   delaunay,
@@ -36,6 +39,7 @@ const entries: EntryScheme = {
   drei,
   durer,
   ernst,
+  fleischmann,
   freud,
   gentileschi,
   giacometti,
@@ -58,6 +62,7 @@ const entries: EntryScheme = {
   martin,
   molnar,
   moss,
+  mucha,
   mura,
   nauman,
   newman,
