@@ -1,4 +1,4 @@
-name: Build & Deploy to Codeberg Pages
+name: Build & Deploy demo site on nicolas-lebrun.fr/artistry-swatch
 
 on:
   push:
