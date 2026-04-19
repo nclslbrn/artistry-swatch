@@ -22,7 +22,7 @@ jobs:
       - name: Build
         run: |
           cd demo/
-          npm run build-only
+          npm run demo:build
         env:
           VITE_BASE_URL: /
 
