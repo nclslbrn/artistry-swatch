@@ -1,5 +1,7 @@
 # Artistry-swatch
 
+[Mirrored](https://codeberg.org/nclslbrn/artistry-swatch) from Codeberg,org
+
 A package to get random palette from iconic painting of art history
 
 ## Installation
@@ -8,11 +10,11 @@ A package to get random palette from iconic painting of art history
 npm install @nclslbrn/artistry-swatch
 ```
 
-- or -
+or 
+
 ```
 yarn add @nclslbrn/artistry-swatch
 ```
-
 
 ## How use it
 
@@ -34,13 +36,13 @@ const palette = getPalette({ theme: 'dark' })
 // Specify an artist
 const palette = getPalette({ artist: "Albrecht Dürer"})
 ```
-| Parameters | Value                                       | Default       |
-|------------|---------------------------------------------|---------------|
+
+| Parameters | Value                                       | Default       |
+| ---------- | ------------------------------------------- | ------------- |
 | rand       | float between 0 & 1                         | Math.random() |
 | temp       | string (cold, warm or any)                  | any           |
 | theme      | string (bright, dark or any)                | any           |
 | artist     | string (artist firstname + lastname or any) | any           |
-
 
 ## Returned palette object
 
