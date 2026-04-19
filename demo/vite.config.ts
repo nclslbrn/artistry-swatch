@@ -1,11 +1,10 @@
 // vite.config.ts
-import { resolve } from "path";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
-// https://vitejs.dev/guide/build.html#library-mode
+import process from "node:process";
 
 export default defineConfig({
-  base: "artistry-swatch",
+  base: process.env.VITE_BASE_URL ?? "/",
   build: {
     rollupOptions: {
       output: {
