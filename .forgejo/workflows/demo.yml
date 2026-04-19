@@ -40,6 +40,6 @@ jobs:
         run: |
           lftp -u ${{ secrets.DEPLOY_USER }},$FTP_PASSWORD \
             sftp://${{ secrets.DEPLOY_HOST }} << EOF
-            mirror -R --delete dist/ ${{ secrets.DEPLOY_PATH }}
+            mirror -R --delete demo/dist/ ${{ secrets.DEPLOY_PATH }}
             bye
           EOF
